@@ -2,4 +2,4 @@
 A simple Tic Tac Toe game
 
 
-Html 5 - Css 3 - JavaScript
+HTML 5 - CSS 3 - JavaScript
