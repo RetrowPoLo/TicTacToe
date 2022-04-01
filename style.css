@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+  background-color: rgb(21, 29, 59);
+  color: rgb(216, 33, 72);
+}
+
+#game_area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 300px;
+  margin: auto;
+}
+
+button {
+  background-color: rgb(110, 191, 139);
+  border: 2mm ridge rgb(110, 191, 139);
+  color: rgb(21, 29, 59);
+  font-size: medium;
+}
+
+/* Score/Name style start */
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+/* Score/Name style end */
+
+/* Box style start */
+.box {
+  border: 2px solid rgb(110, 191, 139);
+  height: 100px;
+  line-height: 100px;
+  font-size: 60px;
+}
+
+#box1 {
+  border-top: 0px;
+  border-left: 0px;
+}
+
+#box2 {
+  border-top: 0px;
+}
+
+#box3 {
+  border-top: 0px;
+  border-right: 0px;
+}
+
+#box4 {
+  border-left: 0px;
+}
+
+#box6 {
+  border-right: 0px;
+}
+
+#box7 {
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+#box8 {
+  border-bottom: 0px;
+}
+
+#box9 {
+  border-bottom: 0px;
+  border-right: 0px;
+}
+/* Box style end */
+
+/* Blinking effet start */
+.blink {
+  color: rgb(216, 33, 72);
+  letter-spacing: 0.5em;
+  animation: clignote 1s linear infinite;
+}
+@keyframes clignote {
+  50% {
+    opacity: 0;
+  }
+}
+/* Blinking effet end */
